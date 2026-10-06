@@ -1,1 +1,1 @@
-THEME = "white"
+THEME = os.getenv("APP_THEME", "white")
